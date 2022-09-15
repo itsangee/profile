@@ -1,0 +1,113 @@
+body {
+  background-color: antiquewhite;
+  font-family: 'Anton', sans-serif;
+  color: #406042;
+  font-size: 20px;
+}
+
+h1, h2, h3 {
+  font-family: 'Arial' ;
+
+}
+
+a {
+  color: #45a564;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+}
+
+a:hover {
+  color: #1f5d46;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(197, 208, 208, 0.1);
+  width: 500px;
+  margin: 0 auto
+}
+
+.card-1 {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(197, 208, 208, 0.1);
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+
+.card-2 {
+text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(197, 208, 208, 0.1);
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+
+.card-3 {
+  text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(197, 208, 208, 0.1);
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+#img-circle {
+  border-radius: 100%;
+}
+
+.centering {
+  width: 300px;
+  margin: 0 auto;
+}
+
+#profile-pic {
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 15px;
+  font-size: 35px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
